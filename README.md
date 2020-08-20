@@ -3,23 +3,24 @@
 Live Code: https://kimflores-calculator.netlify.app
 
 # How It's Made:
-Tech used: HTML, CSS, JavaScript, Framework of choice
+### Tech used: 
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+**HTML, CSS, and JavaScript**
 
-Optimizations
-(optional)
+The wireframe for this project was straightforward with the HTML having two inputs and four operational buttons. I wrote up some psuedo code to think about how I and what direction I go in terms of the JS logic. I ended up making seperate functions for each operation. 
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+![Calculator Final](calcimg.png)
+
 
 # Lessons Learned:
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+When retrieving the inputs from the calculator into JavaScript, I learned that I needed to convert the string into a number using ParseInt() nad targeting the value inorder for the operations to apply. As well as creating a function that would allow the user to input a new set of numbers without having to manually refresh the browser. 
 
 # Examples:
+
 Take a look at these couple examples that I have in my own portfolio:
 
-Palettable: https://github.com/alecortega/palettable
+Parchment Sword or Blade: https://kimflores-parchment-stone-blade.netlify.app
 
-Twitter Battle: https://github.com/alecortega/twitter-battle
+Horoscope: https://github.com/Kim-Flores/Horoscope
 
-Patch Panel: https://github.com/alecortega/patch-panel
+
